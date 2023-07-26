@@ -8,12 +8,14 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <div className="py-7 px-28">
+    <div>
     <Header/>
+    <div className="px-8 md:px-12 lg:px-20">
     <Hero/>
     <About/>
     <Projects/>
     <Contact/>
+    </div>
     <Footer/>
     </div>
   )
