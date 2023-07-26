@@ -10,14 +10,17 @@ export const Contact = () => {
 
   const sendEmail = (e :any) => {
     e.preventDefault();
-    emailjs.sendForm('service_56625pa', 'template_1goxs4a', form.current, '12XwjtMQwv4LxlQfx')
-      .then((result) => {
+    if (form.current) {
+      emailjs.sendForm('service_56625pa', 'template_1goxs4a', form.current, '12XwjtMQwv4LxlQfx')
+        .then((result) => {
           console.log(result.text);
-      }, (error) => {
+        })
+        .catch((error) => {
           console.log(error.text);
-      });
-
-    form.current?.reset()
+        });
+  
+      form.current.reset();
+    }
   };
 
   return (
