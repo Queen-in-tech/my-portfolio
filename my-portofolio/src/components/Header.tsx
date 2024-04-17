@@ -43,7 +43,7 @@ const Header = () => {
       </nav>
 
       {toggleNav && (
-        <nav className="absolute right-0 z-10 top-0 flex bg-transparent flex-col p-7 rounded-md md:hidden gap-5 text-semibold text-black text-lg">
+        <nav className="absolute right-0 z-10 top-0 flex bg-transparent flex-col p-6 rounded-md md:hidden gap-5 text-semibold text-black text-lg">
           <a
             href="#home"
             className="hover:border-b-2 hover:border-purple-800 cursor-pointer"
@@ -67,6 +67,13 @@ const Header = () => {
             className="hover:border-b-2 hover:border-purple-800 cursor-pointer"
           >
             Contact
+          </a>
+          <a
+            href="https://drive.google.com/file/d/19fcZDeZqPA6_rv6jW3GxZ4ivCnz5ifyu/view?usp=drive_link"
+            target="_blank"
+            className=" md:hidden bg-purple-800 text-white text-lg px-5 text-start py-1 rounded-xl font-semibold hover:opacity-70"
+          >
+            Resume
           </a>
         </nav>
       )}

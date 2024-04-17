@@ -37,41 +37,48 @@ const Hero = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png"
               alt=""
               className="w-8 h-8"
+              title="HTML"
             />
 
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"
               alt=""
+              title="CSS"
               className="w-8 h-8"
             />
 
             <img
               src="https://durableprogramming.com/wp-content/uploads/2023/04/JavaScript-logo.png"
               alt=""
+              title="Javascript"
               className="w-8 h-8"
             />
 
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQMAgy_XeSr2CmOITAysaZtDxsVUSTSYtSM2EKE5ivhg&s"
               alt=""
+              title="TailwindCSS"
               className="w-8 h-8"
             />
 
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
               alt=""
+              title="React"
               className="w-8 h-8"
             />
 
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201"
               alt=""
+              title="Typescript"
               className="w-8 h-8"
             />
 
             <img
               src="https://www.svgrepo.com/show/303670/firebase-1-logo.svg"
               alt=""
+              title="Firebase"
               className="w-8 h-8"
             />
           </div>
