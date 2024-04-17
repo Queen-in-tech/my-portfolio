@@ -5,7 +5,7 @@ const Header = () => {
   const [toggleNav, setToggleNav] = useState(false);
 
   return (
-    <div className="p-3 justify-center sticky bg-[#f7f9fb] top-0 flex md:justify-between items-center w-full z-10 md:pt-7 md:pb-3 md:px-28">
+    <div className="p-3 justify-center sticky bg-[#f7f9fb] top-0 flex md:justify-between items-center w-full z-10 md:pt-7 md:pb-18 md:px-28">
       <div className="flex gap-14 shadow-md p-4 rounded-md justify-between items-center md:shadow-none md:p-0 md:rounded-none">
         <p className="font-bold text-2xl text-black/70 curso(r-pointer">
           SHEBA
